@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerB">
+
+    <Label fx:id="label" layoutX="215.0" layoutY="104.0" text="Label" />
+    <Label fx:id="lblAge" layoutX="215.0" layoutY="172.0" text="Label" />
+    <Label layoutX="64.0" layoutY="104.0" text="Name          " />
+    <Label layoutX="65.0" layoutY="172.0" text="Age             " />
+    <Label layoutX="64.0" layoutY="235.0" text="City                   " />
+    <Label fx:id="lblCity" layoutX="215.0" layoutY="235.0" text="Label" />
+    <Label layoutX="63.0" layoutY="296.0" text="NIC or Passport Number " />
+    <Label fx:id="lblNic" layoutX="215.0" layoutY="296.0" text="Label" />
+    <Label layoutX="67.0" layoutY="365.0" text="Vaccinatioin Type " />
+    <Label fx:id="lblVaccs" layoutX="215.0" layoutY="365.0" text="Label" />
+    <Label fx:id="lblBooth" layoutX="215.0" layoutY="430.0" text="Label" />
+    <Label layoutX="67.0" layoutY="430.0" text="Booth Number" />
+    <Label fx:id="lblDate" layoutX="317.0" layoutY="468.0" text="Label" />
+    <Label layoutX="169.0" layoutY="20.0" prefHeight="47.0" prefWidth="135.0" text="Receipt">
+        <font>
+            <Font size="32.0" />
+        </font>
+    </Label>
+    <Label layoutX="188.0" layoutY="104.0" text="    :" />
+    <Label layoutX="188.0" layoutY="172.0" text="    :" />
+    <Label layoutX="188.0" layoutY="235.0" text="    :" />
+    <Label layoutX="188.0" layoutY="296.0" text="    :" />
+    <Label layoutX="188.0" layoutY="365.0" text="    :" />
+    <Label layoutX="188.0" layoutY="430.0" text="    :" />
+
+</Pane>
